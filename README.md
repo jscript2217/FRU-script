@@ -4,7 +4,11 @@
 - 생산적으로 만들기 위해 간단한 입력으로 FRU정보를 각 서버에 맞게 자동으로 수정하기 위함
 
 
-사용 방법  
+사용 방법 
+스크립트 경로에 들어가 아래 명령어 실행  
+  
+./fruscript.sh  
+
 Insert BMC IP Address : IP 입력  
 Insert Username : 유저ID 입력  
 Insert Password : 패스워드 입력(투명표시)  
