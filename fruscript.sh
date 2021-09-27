@@ -10,7 +10,7 @@
 # draw_progress_bar 10
 # draw_progress_bar 90
 # destroy_scroll_area
-#
+# 프로세스바 https://answer-id.com/ko/74489640 참고
 CODE_SAVE_CURSOR="\033[s"
 CODE_RESTORE_CURSOR="\033[u"
 CODE_CURSOR_IN_SCROLL_AREA="\033[1A"
@@ -159,16 +159,16 @@ done
 # Username & Password 입력
 echo -n "Insert Username : "
 read username
-
 echo -n "Insert Password : "
 stty -echo
 read password
 stty echo
 echo -e \n
 echo '--------------------------------------------'
-# 서버 연결 접속안될때 나가기
-ipmitool -H $IP -U $username -P $password fru >>/dev/null 2>&1
+# 서버 연결 접속안될때 오류 내용 표시 후 나가기
+output=`ipmitool -H $IP -U $username -P $password fru` >>/dev/null 2>&1
 if [ $? != 0 ]; then
+echo "$output"
 exit
 fi
 echo "================Before FRU Information================"

@@ -1102,3 +1102,151 @@ FRU Device Description : FRU01 (ID 1)
  Product Serial        : DL2002921A0002
  Product Asset Tag     : NULL
 
+-------------Mon Sep 27 16:40:08 KST 2021-------------
+ LTechKorea FRU Editor v1.0.0 (2021. 09. 27.)
+
+Connection information.
+ IP : 192.168.1.148
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000G30
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : B000000000000G30
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-2224-G
+ Product Part Number   : LKG000000000000G30
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R281-G30-SW-LA-005
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     : NULL
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000G30
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : B000000000000G30
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-2224-G
+ Product Part Number   : LKG000000000000G30
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R281-G30-SW-LA-005
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     : NULL
+
+-------------Mon Sep 27 16:40:30 KST 2021-------------
+ LTechKorea FRU Editor v1.0.0 (2021. 09. 27.)
+
+Connection information.
+ IP : 192.168.1.148
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000G30
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : B000000000000G30
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-2224-G
+ Product Part Number   : LKG000000000000G30
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R281-G30-SW-LA-005
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     : NULL
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000G30
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : B000000000000G30
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-2224-G
+ Product Part Number   : LKG000000000000G30
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Mon Mar  1 04:41:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : KI6N4800233
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R281-G30-SW-LA-005
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : DL2002921A0002
+ Product Asset Tag     : NULL
+
