@@ -156,14 +156,22 @@ do
     fi
 done
 # 시리얼 넘버 수동입력
-echo -n -e "Do you want to manually enter the serial?(y/n)"
+echo -n -e "Do you want to manually enter the serial?(y/n) : "
 read result
-if [ result = "y"]
-    echo -n -e "Insert Broad Serial number : "
-    read BS
-    echo -n -e "Insert Product Serial number : "
-    read PS
-fi
+for((;;))
+do
+    if [ $result = "y" ]; then
+        echo -n -e "Insert Broad Serial number : "
+        read BS
+        echo -n -e "Insert Product Serial number : "
+        read PS 
+        echo -n -e "Are you sure?(y/n) : "
+        read anser
+        if [ $anser = "y" ]; then
+            break
+        fi
+    fi
+done
 # Username & Password 입력
 echo -n "Insert Username : "
 read username
@@ -229,10 +237,14 @@ PAT1=$(echo "$fru1" | awk -F ':' '{if ($1~"Product Asset Tag") { print $2 }}' | 
 draw_progress_bar 20
 
 # Chassis Part Number
-ipmitool -H $IP -U $username -P $password fru edit 0 field c 0 "LKG000000000000$(echo $PN1 | awk -F '-' '{print $2}')" >>/dev/null 2>&1
-# Chassis Serial 
-if [ result = "y"]
+ipmitool -H $IP -U $username -P $password fru edit 0 field c 0 "LKG000000000000$(echo $PN1 | awk -F '-' '{print $2}')" >>/dev/null 2>&1 
+if [ $result = "y" ]; then
+    # FRU ID 0, Chassis Serial
     ipmitool -H $IP -U $username -P $password fru edit 0 field c 1 "$PS" >>/dev/null 2>&1
+    # FRU ID 0, Board Serial
+    ipmitool -H $IP -U $username -P $password fru edit 0 field b 2 "$BS" >>/dev/null 2>&1
+    # FRU ID 0, Product Serial
+    ipmitool -H $IP -U $username -P $password fru edit 0 field p 4 "$PS" >>/dev/null 2>&1
 else
     ipmitool -H $IP -U $username -P $password fru edit 0 field c 1 "$PS0" >>/dev/null 2>&1
 fi 
@@ -278,7 +290,9 @@ ipmitool -H $IP -U $username -P $password fru edit 0 field p 5 " " >>/dev/null 2
 # FRU ID 1, Board Mfg
 ipmitool -H $IP -U $username -P $password fru edit 1 field b 0 "LTechKorea, Inc." >>/dev/null 2>&1
 draw_progress_bar 90
-if [ result = "y"]
+if [ $result = "y" ]; then
+    # FRU ID 1, Chassis Serial
+    ipmitool -H $IP -U $username -P $password fru edit 1 field c 1 "$PS" >>/dev/null 2>&1
     # FRU ID 1, Board Serial
     ipmitool -H $IP -U $username -P $password fru edit 1 field b 2 "$BS" >>/dev/null 2>&1
     # FRU ID 1, Product Serial

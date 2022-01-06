@@ -1250,3 +1250,225 @@ FRU Device Description : FRU01 (ID 1)
  Product Serial        : DL2002921A0002
  Product Asset Tag     : NULL
 
+-------------Thu Jan  6 17:33:56 KST 2022-------------
+ LTechKorea FRU Editor v1.0.1 (2022. 01. 06.)
+
+Connection information.
+ IP : 192.168.1.45
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : B-LTK1234567890abcdef
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : LTK1234567890abcdef
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : B-LTK1234567890abcdef
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : LTK1234567890abcdef
+ Product Asset Tag     : 01234567890123456789AB
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : B-LTK1234567890abcdef
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : LTK1234567890abcdef
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     : 01234567890123456789AB
+
+-------------Thu Jan  6 17:36:42 KST 2022-------------
+ LTechKorea FRU Editor v1.0.1 (2022. 01. 06.)
+
+Connection information.
+ IP : 192.168.1.45
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : B-LTK1234567890abcdef
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : LTK1234567890abcdef
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     : 01234567890123456789AB
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 123123
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     : 01234567890123456789AB
+
+-------------Thu Jan  6 17:48:02 KST 2022-------------
+ LTechKorea FRU Editor v1.0.1 (2022. 01. 06.)
+
+Connection information.
+ IP : 192.168.1.45
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 123123
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     : 01234567890123456789AB
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000340
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : B000000000000340
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG-1204-C
+ Product Part Number   : LKG000000000000340
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 123123
+ Board Mfg Date        : Wed Jan  1 09:09:00 2020
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MR91-FS0-00
+ Board Serial          : 123123
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R181-340-LA
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 123123
+ Product Asset Tag     : 01234567890123456789AB
+

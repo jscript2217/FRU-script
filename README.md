@@ -6,6 +6,17 @@
 
 사용 방법  
   
+- ipmitool 설치
+  
+Ubuntu 기준  
+sudo apt-get update  
+sudo apt-get install ipmitool  
+  
+CentOs 기준
+  
+sudo yum update  
+sudo yum install ipmitool  
+  
 스크립트 경로에 들어가 아래 명령어 실행  
 ./fruscript.sh  
 
