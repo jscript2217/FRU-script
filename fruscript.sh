@@ -156,6 +156,14 @@ do
     fi
 done
 
+echo -n -e "Do you want to manually enter the serial?(y/n)"
+read result
+if [ result = "y"]
+    echo -n -e "Insert Broad Serial number : "
+    read BS
+    echo -n -e "Insert Product Serial number : "
+    read PS
+fi
 # Username & Password 입력
 echo -n "Insert Username : "
 read username
@@ -168,8 +176,8 @@ echo '--------------------------------------------'
 # 서버 연결 접속안될때 오류 내용 표시 후 나가기
 output=`ipmitool -H $IP -U $username -P $password fru` >>/dev/null 2>&1
 if [ $? != 0 ]; then
-echo "$output"
-exit
+    echo "$output"
+    exit
 fi
 echo "================Before FRU Information================"
 ipmitool -H $IP -U $username -P $password fru
@@ -223,7 +231,11 @@ draw_progress_bar 20
 # Chassis Part Number
 ipmitool -H $IP -U $username -P $password fru edit 0 field c 0 "LKG000000000000$(echo $PN1 | awk -F '-' '{print $2}')" >>/dev/null 2>&1
 # Chassis Serial 
-ipmitool -H $IP -U $username -P $password fru edit 0 field c 1 "$PS" >>/dev/null 2>&1
+if [ result = "y"]
+    ipmitool -H $IP -U $username -P $password fru edit 0 field c 1 "$PS" >>/dev/null 2>&1
+else
+    ipmitool -H $IP -U $username -P $password fru edit 0 field c 1 "$PS0" >>/dev/null 2>&1
+fi 
 # Board Mfg
 ipmitool -H $IP -U $username -P $password fru edit 0 field b 0 "LTechKorea, Inc." >>/dev/null 2>&1
 # Board Product
@@ -246,10 +258,10 @@ case $(echo $PN1 | awk -F '-' '{print $2}') in
         ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2212-C" >>/dev/null 2>&1
         ;;
     3C2)
-        ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2212-G" >>/dev/null 2>&1
+        ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2212-C" >>/dev/null 2>&1
         ;;
     G30)
-        ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2224-G" >>/dev/null 2>&1
+        ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2224-C" >>/dev/null 2>&1
         ;;
     340)
         ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-1204-C" >>/dev/null 2>&1
@@ -266,10 +278,17 @@ ipmitool -H $IP -U $username -P $password fru edit 0 field p 5 " " >>/dev/null 2
 # FRU ID 1, Board Mfg
 ipmitool -H $IP -U $username -P $password fru edit 1 field b 0 "LTechKorea, Inc." >>/dev/null 2>&1
 draw_progress_bar 90
-# FRU ID 1, Board Serial
-ipmitool -H $IP -U $username -P $password fru edit 1 field b 2 "$BS0" >>/dev/null 2>&1
-# FRU ID 1, Product Serial
-ipmitool -H $IP -U $username -P $password fru edit 1 field p 4 "$PS0" >>/dev/null 2>&1
+if [ result = "y"]
+    # FRU ID 1, Board Serial
+    ipmitool -H $IP -U $username -P $password fru edit 1 field b 2 "$BS" >>/dev/null 2>&1
+    # FRU ID 1, Product Serial
+    ipmitool -H $IP -U $username -P $password fru edit 1 field p 4 "$PS" >>/dev/null 2>&1
+else
+    # FRU ID 1, Board Serial
+    ipmitool -H $IP -U $username -P $password fru edit 1 field b 2 "$BS0" >>/dev/null 2>&1
+    # FRU ID 1, Product Serial
+    ipmitool -H $IP -U $username -P $password fru edit 1 field p 4 "$PS0" >>/dev/null 2>&1
+fi
 destroy_scroll_area
 # 확인 출력 및 로그 저장
 echo "================After FRU Information================"
