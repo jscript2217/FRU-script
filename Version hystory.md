@@ -13,14 +13,14 @@
 2U 10BAY CPU서버,  R181-N20 > LKG-1210-C  
 
 해당 FRU 정보 변경 기준은 아래 문서에서 확인  
-- https://docs.google.com/document/d/1bfCwTgQvqGkqwCF-Db8mfm415kB2QNH-TDnN_EDyDU0/edit#
+    - https://docs.google.com/document/d/1bfCwTgQvqGkqwCF-Db8mfm415kB2QNH-TDnN_EDyDU0/edit#
 프로세스바는 아래링크에서 가져옴
-- https://answer-id.com/ko/74489640
+    - https://answer-id.com/ko/74489640
 
 2. 진행 사항 보기편하게 프로세스 바 추가  
 ![프로세스 바](https://user-images.githubusercontent.com/89372983/134865368-a258219a-9955-47b4-b2c8-519e74ff3331.png)
 4. 해당 스크립트 동일경로에 로그파일 생성  
-- 변경전, 변경후, 변경날짜, 버전 정보 기록  
+    - 변경전, 변경후, 변경날짜, 버전 정보 기록  
 5. BMC 접속 오류 표시  
 6. IP 정보가 아닌 다른 문자열 입력시 다시 입력 하도록 만듦  
 7. username, password를 입력받아 진행  
