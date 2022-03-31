@@ -161,7 +161,7 @@ read result
 for((;;))
 do
     if [ $result = "y" ]; then
-        echo -n -e "Insert Broad Serial number : "
+        echo -n -e "Insert Board Serial number : "
         read BS
         echo -n -e "Insert Product Serial number : "
         read PS 
@@ -170,6 +170,9 @@ do
         if [ $anser = "y" ]; then
             break
         fi
+    fi
+    if [ $result = "n" ]; then
+        break
     fi
 done
 # Username & Password 입력
@@ -262,7 +265,7 @@ ipmitool -H $IP -U $username -P $password fru edit 0 field p 0 "LTechKorea, Inc.
 draw_progress_bar 60
 
 # Product Name
-case $(echo $PN1 | awk -F '-' '{print $2}') in # $(echo $PN1 | awk -F '-' '{print $2}')
+case $(echo $PN1 | cut -c -8) in # $(echo $PN1 | awk -F '-' '{print $2}')
     R281-3C0)
         ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG-2212-C" >>/dev/null 2>&1
         ;;
@@ -287,7 +290,7 @@ case $(echo $PN1 | awk -F '-' '{print $2}') in # $(echo $PN1 | awk -F '-' '{prin
     R182-NA0)
         ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG1310" >>/dev/null 2>&1
         ;;
-    R282-Z90-00)
+    R282-Z90)
         ipmitool -H $IP -U $username -P $password fru edit 0 field p 1 "LKG2312E" >>/dev/null 2>&1
         ;;
     R182-Z91)

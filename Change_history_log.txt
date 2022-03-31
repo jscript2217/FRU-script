@@ -1472,3 +1472,156 @@ FRU Device Description : FRU01 (ID 1)
  Product Serial        : 123123
  Product Asset Tag     : 01234567890123456789AB
 
+-------------Thu Mar 31 09:28:23 KST 2022-------------
+ LTechKorea FRU Editor v1.0.2 (2022. 03. 30.)
+
+Connection information.
+ IP : 192.168.1.76
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : GIGABYTE
+ Board Product         : MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : 123456789AB
+ Board Extra           : NULL
+ Product Manufacturer  : GIGABYTE
+ Product Name          : R282-Z90-00
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     : 01234567890123456789AB
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : NULL
+ Board Product         : MZ92-FS0-00
+ Board Serial          : 01234567890123456789AB
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R282-Z90-00
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : 01234567890123456789AB
+ Product Asset Tag     : 01234567890123456789AB
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000Z90
+ Chassis Serial        : GLG6NE221A0023
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : B000000000000Z90
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG2312E
+ Product Part Number   : LKG000000000000Z90
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R282-Z90-00
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     : 01234567890123456789AB
+
+-------------Thu Mar 31 09:31:49 KST 2022-------------
+ LTechKorea FRU Editor v1.0.2 (2022. 03. 30.)
+
+Connection information.
+ IP : 192.168.1.76
+ UserName : admin
+ Password : ltech[][]
+
+================Before FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000Z90
+ Chassis Serial        : GLG6NE221A0023
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : B000000000000Z90
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : R282-Z90-00
+ Product Part Number   : LKG000000000000Z90
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R282-Z90-00
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     : 01234567890123456789AB
+
+================After FRU Information================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : LKG000000000000Z90
+ Chassis Serial        : GLG6NE221A0023
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : B-LKG-MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : B000000000000Z90
+ Product Manufacturer  : LTechKorea, Inc.
+ Product Name          : LKG2312E
+ Product Part Number   : LKG000000000000Z90
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     :  
+
+FRU Device Description : FRU01 (ID 1)
+ Chassis Type          : Rack Mount Chassis
+ Chassis Part Number   : 01234567
+ Chassis Serial        : 01234567890123456789AB
+ Board Mfg Date        : Fri Jan  1 09:04:00 2021
+ Board Mfg             : LTechKorea, Inc.
+ Board Product         : MZ92-FS0-00
+ Board Serial          : LG5NG500472
+ Board Part Number     : 01234567
+ Board Extra           : NULL
+ Product Manufacturer  : NULL
+ Product Name          : R282-Z90-00
+ Product Part Number   : 000000000001
+ Product Version       : 0100
+ Product Serial        : GLG6NE221A0023
+ Product Asset Tag     : 01234567890123456789AB
+
